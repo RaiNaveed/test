@@ -1,0 +1,492 @@
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "child1 child1"
+    "child2 child2"
+    "child3 child4"
+    "child5 child6"
+    "child7 child7";
+    gap: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.child1{
+    background-color: blue;
+    grid-area: child1;
+    height: auto;
+    color: white;
+    transition: 1.5s;
+}
+.child1 ul li:hover{
+    transform: scale(1.2);
+    background-color: green;
+    
+}
+
+.child2{
+    background-color: blueviolet;
+    background-image: url(./Assets/plubing5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: child2;
+    height: 500px;
+}
+.child2 h1:hover{
+color: yellow;
+}
+
+.child2 ul li{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    list-style: none;
+}
+
+
+.child3{
+    background-color: brown;
+    grid-area: child3;
+    height: 650px;
+}
+.child3 img{
+    width: 100%;
+    height: 100%;
+}
+.child4{
+    background-color: cadetblue;
+    grid-area: child4;
+    height: auto;
+    font-size: 30px;
+    padding: 8px;
+    text-align: center;
+    word-spacing: 2px;
+}
+.child5{
+    background-color: chartreuse;
+    grid-area: child5;
+    height: 650px;
+    height: auto;
+    font-size: 30px;
+    padding: 8px;
+    text-align: center;
+    word-spacing: 2px;
+}
+.child6{
+    background-color: cornflowerblue;
+    grid-area: child6;
+    height: auto;
+}
+.child6 img{
+height: 100%;
+width: 100%;
+}
+.child7{
+    background-color: black;
+    grid-area: child7;
+    height: auto;
+}
+
+.paren{
+    text-align: center;
+    
+    color: orangered;
+    border: 2px;
+    border-radius: 30px;
+    height: auto;
+}
+.paren h1{
+font-size: 50px;
+}
+.paren h1:hover{
+    color: yellow;
+}
+.paren p{
+    font-size: 35px;
+}
+.paren button{
+    font-size: 60px;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.paren button:hover{
+    background-color: green;
+}
+
+.heating{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "para pic"
+    "para1 para1"
+    "footer footer";
+    color: white;
+    gap: 15px;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.heading{
+    background-color: red;
+    font-size: 70px;
+    border-radius: 20px;
+    grid-area: nav;
+}
+.para{
+    background-color:aqua;
+    font-size: 30px;
+    word-spacing: 2px;
+    padding: 20px;
+    grid-area: para;
+}
+
+.pic{
+    background-color: blueviolet;
+    grid-area: pic;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.para1{
+    background-color: cadetblue;
+    grid-area: para1;
+    font-size: 30px;
+    padding: 20px;
+}
+.last{
+    background-color: black;
+    grid-area: footer;
+}
+
+
+.cooling{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cooling1 cooling2 cooling2"
+    "cooling3 cooling4 cooling5"
+    "cooling3 cooling6 cooling7"
+    "cooling8 cooling8 cooling8";
+    text-align: center;
+    color: white;
+    height: auto;
+    padding: 60px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.cooling1{
+    background-color: blue;
+    grid-area: cooling1;
+    border: 2px;
+    border-radius: 100%;
+    height: auto;
+}
+
+.cooling1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.cooling2{
+    background-color: antiquewhite;
+    grid-area: cooling2;
+    padding: 15px;
+}
+
+.cooling2 h1{
+    color: blue;
+    font-size: 70px;
+}
+
+.cooling2 p{
+    color: red;
+    word-spacing: 3px;
+    font-size: 20px;
+}
+
+.cooling3{
+    background-color: aquamarine;
+    grid-area: cooling3;
+    padding: 10px;
+}
+
+.cooling3 h1{
+    color: blue;
+    font-size: 40px;
+}
+
+.cooling3 p{
+    color: red;
+    word-spacing: 2px;
+    
+}
+.cooling4{
+    background-color: yellowgreen;
+    grid-area: cooling4;
+}
+.cooling4 img{
+height: 100%;
+width: 100%;
+}
+.cooling5{
+    background-color: orange;
+    grid-area: cooling5;
+    padding: 20px;
+}
+.cooling5 h1{
+    font-size: 70px;
+    font-style: italic;
+}
+
+.cooling5 p{
+    font-size: 20px;
+    color: red;
+}
+.cooling6{
+    background-color: orangered;
+    grid-area: cooling6;
+}
+.cooling6 img{
+    width: 100%;
+    height: 100%;
+}
+.cooling7{
+    background-color: cornflowerblue;
+    grid-area: cooling7;
+    padding: 20px;
+    word-spacing: 3px;
+}
+.cooling8{
+    background-color: brown;
+    grid-area: cooling8;
+}
+
+
+
+.plumbing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "heading heading"
+    "bgimg bgimg"
+    "pic1 pic2"
+    "video video"
+    "footer footer";
+    padding: 50px;
+    gap: 20px;
+    text-align: center;
+    
+    height: auto;
+}
+
+.plumbing1{
+    grid-area: heading;
+    transition: 2s;
+}
+.plumbing1 h1{
+    font-size: 70px;
+}
+.plumbing1 h1:hover{
+    color: yellow;
+    transform: scale(1.2);
+}
+.plumbing1 p{
+    font-size: 30px;
+    color: blue;
+}
+.plumbing2{
+    background-color: aqua;
+    grid-area: bgimg;
+    padding: 20px;
+    background-image: url(./Assets/cooling.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.plumbing2 h1{
+    font-size: 80px;
+    color: green;
+}
+.plumbing3{
+    background-color: orange;
+    grid-area: pic1;
+}
+.plumbing3 img{
+    width: 100%;
+    height: 100%;
+}
+.plumbing4{
+    
+    grid-area: pic2;
+}
+.plumbing4 img{
+    height: 100%;
+    width: 100%;
+}
+.plumbing5{
+    background-color: red;
+    grid-area: video;
+    
+}
+.plumbing5 video {
+    width: 100%;
+    height: 100%;
+}
+
+.plumbing6{
+    background-color: black;
+    grid-area: footer;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:0) and (max-width:567px) {
+
+    .parent{
+        display: block;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+
+    .heating{
+        display: block;
+    }
+
+    .heading{
+        width:100%
+    }
+
+    .para{
+        width: 100%;
+    }
+    
+    .pic{
+        width: 100%;
+    }
+
+    
+    .para1{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+    }
+
+
+    /* cooling */
+
+    .cooling{
+        display: block;
+        padding: 30px;
+        text-align: center;
+        color: white;
+
+    }
+    
+    .cooling1{
+        width: 100%;
+    }
+    .cooling2{
+        width: 100%;
+    }
+    .cooling3{
+        width: 100%;
+    }
+    .cooling4{
+        width: 100%;
+    }
+    .cooling5{
+        width: 100%;
+    }
+    .cooling6{
+        width: 100%;
+    }
+    .cooling7{
+        width: 100%;
+    }
+    .cooling8{
+        width: 100%;
+    }
+
+    /* cooling */
+
+    /* plumbing */
+    .plumbing{
+        display: block;
+
+    }
+    
+    .plumbing1{
+width: 100%;
+    }
+    .plumbing2{
+        width: 100%;
+    }
+
+    .plumbing2 h1{
+        font-size: 30px;
+        color: red;}
+    .plumbing3{
+        width: 100%;
+    }
+    .plumbing4{
+        width: 100%;
+    }
+    .plumbing4 img{
+        height: 100%;
+        width: 100%;
+    }
+    .plumbing5{
+        width: 100%;
+    }
+    .plumbing5 video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .plumbing6{
+        width: 100%;
+    }
+    /* plumbing */
+
+}
